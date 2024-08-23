@@ -1,0 +1,75 @@
+.container {
+  width: 100vw;
+  height:100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 20px;
+  background: linear-gradient(60deg, #FBAB7E, #F7CE68 );
+  
+}
+
+.BoxContador {
+  width: 25vw;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  background: whitesmoke;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 10px;
+  box-shadow:8px 8px 8px;
+
+}
+#Frase{
+  font-size: 30px;
+  color:rgb(51, 39, 37);
+  font-weight: bold;
+  text-align:center;
+  margin:8px;
+}
+
+#numero{
+  font-size: 30px;
+  color:rgb(51, 39, 37);
+  font-weight: bold;
+  text-align:center;
+
+}
+
+
+
+
+.botaoAdicionar{
+  width: 150px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 100px;
+  background: linear-gradient(blue, lightgreen);
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  box-shadow: 2px 2px 2px blue;
+}
+
+.botaoTirar{
+  width: 150px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 100px;
+  background: linear-gradient(red, orange);
+  color:white;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  box-shadow: 2px 2px 2px orangered;
+}
